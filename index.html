@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- css -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="container">
+        <h1 class="title">STOPWATCH</h1>
+        <div class="circle">
+          <span class="time" id="display">00min 00sec 00ms</span>
+        </div>
+        <div class="buttons">
+            <button class="start" id="start" onclick="start()"><i class="uil uil-play-circle"></i></button>
+            <button class="pause" id="pause" onclick="pause()" style="display: none;"><i class="uil uil-pause-circle"></i></button>
+            <button class="reset" id="reset" onclick="reset()"><i class="uil uil-stop-circle"></i></button>
+        </div>
+    </section> 
+    <!-- js -->
+    <script src="index.js"></script>
+</body>
+</html>
